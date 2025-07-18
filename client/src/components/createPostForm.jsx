@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Textarea from '@components/ui/textarea';
-import Input from '@components/ui/input';
+import { Textarea } from './ui/textarea';
+import { Input } from './ui/input';
 
 const CreatePostForm = ({ onSubmit }) => {
   const [form, setForm] = useState({

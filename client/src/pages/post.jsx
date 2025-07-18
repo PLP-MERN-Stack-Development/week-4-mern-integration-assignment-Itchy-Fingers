@@ -10,7 +10,7 @@ const PostDetail = () => {
     // Simulate fetching post data
     const fetchPost = async () => {
       try {
-        const res = await fetch(/api/posts/$,{postId});
+        const res = await fetch(`/api/posts/${postId}`);
         const data = await res.json();
         setPost(data);
       } catch (err) {

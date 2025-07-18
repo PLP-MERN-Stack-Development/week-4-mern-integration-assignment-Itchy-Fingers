@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Input from '@components/ui/input';
+import { Input } from './ui/input';
 
 const CommentSection = ({ comments = [], onAddComment }) => {
   const [text, setText] = useState('');
